@@ -2,3 +2,5 @@ nom install
 npm start
 
 https://react.dev/learn/tutorial-tic-tac-toe
+
+JavaScript supports closures which means an inner function (e.g. handleClick) has access to variables and functions defined in a outer function (e.g. Board). The handleClick function can read the squares state and call the setSquares method because they are both defined inside of the Board function.
